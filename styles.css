@@ -8,11 +8,17 @@ nav{
     background-color: #b09084;
 }
 
-.items{
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
     font-family: "PlayfairDisplay";
     font-weight: 700;
+    font-size: 1.25em;
 }
-
+a:hover{
+    text-decoration: underline;
+    font-size: 1.5em;
+}
 .educate{
     background-color: #eee3df;
 }
