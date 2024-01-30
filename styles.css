@@ -21,12 +21,15 @@ a:hover{
 }
 .educate{
     background-color: #eee3df;
+    box-shadow: 7px 7px 5px black;
 }
 
 .inspire{
     background-color: antiquewhite;
+    box-shadow: -7px 7px 5px black;
 }
 
 .empower{
     background-color: #eee3df;
+    box-shadow: 7px 7px 5px black;
 }

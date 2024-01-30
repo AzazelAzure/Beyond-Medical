@@ -13,10 +13,11 @@
             <button class="navbar-toggler" type="button" id="toggle-menu" data-bs-toggle="offcanvas" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <img src="./images/beyond_banner1.png" alt="" class="navbar-brand" height="100px">
+            <a class="navbar-brand" href="#"><img src="./images/beyond_banner1.png" alt="" height="100px"></a>
             <div class="offcanvas offcanvas-start" tabindex="-1" id="menu" aria-labelledby="menu-label" style="background-color: #b09084;">
-                <div class="offcanvas-header border-bottom border-black justify-content-center" style="background-color: antiquewhite;">
+                <div class="offcanvas-header border-bottom border-black justify-content-evenly" style="background-color: antiquewhite;">
                     <img src="./images/Rose Simple Bloom Center Beauty Clinic Logo/4.png" alt="" height="125px" width="auto">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body text-center justify-content-evenly">
                     <div class="row g-5">
@@ -30,10 +31,12 @@
             </div>
         </div>
     </nav>
+    <!-- TODO: Add "About us" section  Or some kind of splash-landing-->
+    <!--Will likely add image 1 to it.  Perhaps professional pic of Rebeca -->
     <div class="container-fluid" style="background-color: #7ab0a0;">
-        <div class="col-md-10 col-sm-12 p-5 mb-3 educate border border-black" id="Educate">
+        <div class="col-md-10 col-sm-12 p-5 mb-3 educate border border-black rounded" id="Educate">
            <div class="clearfix">
-                <img class="col-md-6 col-sm-8 float-md-end ms-5 mb-5 border border-3 border-black" src="./images/educate_placeholder.png" alt="">
+                <img class="col-md-6 col-12 float-md-end ms-md-5 mb-md-5 border border-3 border-black" src="./images/educate_placeholder.png" alt="">
                 <h2><u>Educate</u></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc posuere, metus ac consectetur porta, lectus tellus malesuada neque, nec sagittis purus diam sit amet mi. In ut varius tellus, tincidunt consectetur nibh. Phasellus convallis odio vel lacus auctor dignissim. Cras sagittis aliquet lacus at porttitor. Quisque eget nibh eu odio maximus porttitor ut a sem. Nam lorem tortor, efficitur vitae diam sit amet, auctor tempus ante. Aenean venenatis eu felis ut viverra. Cras sit amet odio non orci porta venenatis id vel elit. Integer pharetra ipsum at dui maximus ultrices. Vestibulum eu elit feugiat, feugiat massa at, tempus quam. Suspendisse tempor malesuada urna suscipit sodales. Phasellus sit amet rutrum tellus. Suspendisse ac pulvinar tellus.<br><br>
 
@@ -43,9 +46,9 @@
                 </p>
             </div> 
         </div>
-        <div class="col-md-10 offset-md-2 col-sm-12 p-5 mb-3 inspire border border-black" id="Inspire">
+        <div class="col-md-10 offset-md-2 col-sm-12 p-5 mb-3 inspire border border-black rounded" id="Inspire">
             <div class="clearfix">
-                <img src="./images/inspire_placeholder.jpg" alt="" class="col-md-6 col-sm-12 float-md-start me-5 mb-5 border border-3 border-black">
+                <img src="./images/inspire_placeholder.jpg" alt="" class="col-md-6 col-12 float-md-start me-md-5 mb-md-5 border border-3 border-black">
                 <h2><u>Inspire</u></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec quam sed lacus volutpat vehicula ut eget mi. Aenean eu ex et est tincidunt vehicula. Suspendisse sit amet suscipit tellus. Nulla iaculis sapien diam, nec suscipit lectus facilisis ut. Pellentesque tristique tristique feugiat. Proin tincidunt ultricies odio, et lacinia est sollicitudin vitae. Integer accumsan est a ex auctor, nec euismod ante mattis.<br><br>
 
@@ -54,9 +57,9 @@
                 Proin feugiat sodales consequat. Ut pulvinar sapien in lobortis rhoncus. Pellentesque non pretium nisl. Aliquam vitae quam vel leo mattis efficitur ac sit amet sem. Proin condimentum felis luctus, gravida urna ut, semper tortor. Cras aliquet ultricies purus, non euismod elit auctor a. Sed vel tristique nulla, a lobortis erat. Integer id interdum metus. Etiam maximus eros non mauris auctor mattis. Proin vel odio in erat lobortis facilisis. Vestibulum ultrices, mi ac imperdiet lobortis, mi velit dignissim dui, sed condimentum dui est eu justo. Sed accumsan enim at felis faucibus, ac fringilla nunc congue. Donec interdum lacus eu justo vehicula, vitae molestie justo fermentum. Nunc eu fermentum ligula, quis vulputate massa.</p>
             </div>
         </div>
-        <div class="col-md-10 col-sm-12 p-5 mb-3 empower border border-black" id="Empower">
+        <div class="col-md-10 col-sm-12 p-5 mb-3 empower border border-black rounded" id="Empower">
             <div class="clearfix">
-                <img src="./images/empower_placeholder.jpg" alt="" class="col-md-6 col-sm-12 float-md-end ms-5 mb-5 border border-3 border-black">
+                <img src="./images/empower_placeholder.jpg" alt="" class="col-md-6 col-12 float-md-end ms-md-5 mb-md-5 border border-3 border-black">
                 <h2><u>Empower</u></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus non felis non ullamcorper. Proin pellentesque dui sit amet libero efficitur, a sollicitudin diam aliquet. Vivamus sed turpis gravida, finibus justo ac, pellentesque magna. Maecenas ut leo dui. Donec ut elementum dolor, ac hendrerit mauris. In elementum sem turpis, quis accumsan magna pulvinar quis. Aliquam dapibus faucibus scelerisque. Nam convallis, est non efficitur consequat, sem elit condimentum augue, sit amet eleifend justo urna nec lorem. Maecenas lectus tellus, tempor scelerisque scelerisque ac, laoreet quis dui. Phasellus congue congue mi ac finibus. Mauris sit amet risus quis metus sollicitudin interdum quis id sapien. Sed urna sem, aliquam non quam et, ultricies consectetur urna. Vestibulum quis dui iaculis mauris tempus luctus id convallis ligula. Duis in dictum felis, et placerat tortor. Quisque hendrerit velit feugiat, eleifend augue et, maximus mi.<br><br>
 
@@ -64,6 +67,16 @@
                     
                 Fusce facilisis odio ac leo euismod scelerisque. Donec a dapibus massa. Nunc libero felis, fringilla ut interdum lacinia, mollis vitae ligula. Aliquam erat volutpat. Sed vel tempor ante. Pellentesque nunc neque, malesuada nec suscipit non, finibus lobortis enim. Vestibulum id tortor ut purus volutpat vehicula id eu risus. Maecenas at vehicula mauris.</p>
             </div>
+            <div id="Testimonials">
+                <!-- TODO: Add Testimonial section-->
+                    <!--Will likely be cards in a carosel? -->
+            </div>
+            <div id="Contact">
+                <!-- TODO: Add contact section-->
+                    <!--Footer perhaps? Maybe accordian?-->
+                    <!--Get signature image from Rebeca-->
+            </div>
+            
         </div>
     </div>
     
