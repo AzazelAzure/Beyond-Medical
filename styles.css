@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url(./fonts/PlayfairDisplay/PlayfairDisplay-Italic-VariableFont_wght.ttf);
+}
+
+
+nav{
+    background-color: #b09084;
+}
+
+.items{
+    font-family: "PlayfairDisplay";
+    font-weight: 700;
+}
+
+.educate{
+    background-color: #eee3df;
+}
+
+.inspire{
+    background-color: antiquewhite;
+}
+
+.empower{
+    background-color: #eee3df;
+}
