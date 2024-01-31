@@ -3,6 +3,15 @@
     src: url(./fonts/PlayfairDisplay/PlayfairDisplay-Italic-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: "CorBoldItalic";
+    src: url(./fonts/Cormorant_Garamond/CormorantGaramond-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: "Varela";
+    src: url(./fonts/Varela_Round/VarelaRound-Regular.ttf);
+}
 
 nav{
     background-color: #b09084;
@@ -32,4 +41,12 @@ a:hover{
 .empower{
     background-color: #eee3df;
     box-shadow: 7px 7px 5px black;
+}
+
+.headtext{
+    font-family: "CorBoldItalic";
+}
+
+.tenettext{
+    font-family: "Varela";
 }
