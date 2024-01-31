@@ -62,7 +62,8 @@ a:hover{
 }
 
 .testpic{
-    height: 300px !important;
+    width: 30vw !important;
+    height: auto !important;
 }
 
 #test-carousel{
