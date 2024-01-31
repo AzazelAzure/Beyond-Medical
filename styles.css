@@ -13,6 +13,11 @@
     src: url(./fonts/Varela_Round/VarelaRound-Regular.ttf);
 }
 
+@font-face {
+    font-family: "Sacramento";
+    src: url(./fonts/Sacramento/Sacramento-Regular.ttf);
+}
+
 nav{
     background-color: #b09084;
 }
@@ -49,4 +54,8 @@ a:hover{
 
 .tenettext{
     font-family: "Varela";
+}
+
+.introhead{
+    font-family: "Sacramento";
 }
