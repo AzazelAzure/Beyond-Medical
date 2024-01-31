@@ -60,3 +60,11 @@ a:hover{
 .introhead{
     font-family: "Sacramento";
 }
+
+.testpic{
+    height: 300px !important;
+}
+
+#test-carousel{
+    box-shadow: 7px 7px 5px black;
+}

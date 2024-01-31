@@ -24,7 +24,7 @@
                         <a href="#Educate" class="col-md-2 col-sm-12">Educate</a>
                         <a href="#Inspire" class="col-md-2 col-sm-12">Inspire</a>
                         <a href="#Empower" class="col-md-2 col-sm-12">Empower</a>
-                        <a href="#" class="col-md-2 col-sm-12 me-md-3 me-sm-0">Testimonials</a>
+                        <a href="#Testimonials" class="col-md-2 col-sm-12 me-md-3 me-sm-0">Testimonials</a>
                         <a href="#" class="col-md-3 col-sm-12">Contact Us</a>
                     </div>
                 </div>
@@ -53,6 +53,7 @@
         </div>
     </div>
     <div class="container-fluid" >
+
         <div class="col-md-10 col-sm-12 p-5 mb-3 educate border border-black rounded" id="Educate">
            <div class="clearfix" >
                 <img class="col-md-6 col-12 float-md-end ms-md-5 mb-md-5 border border-3 border-black" src="./images/educate_placeholder.png" alt="">
@@ -65,6 +66,7 @@
                 </p>
             </div> 
         </div>
+
         <div class="col-md-10 offset-md-2 col-sm-12 p-5 mb-3 inspire border border-black rounded" id="Inspire">
             <div class="clearfix">
                 <img src="./images/inspire_placeholder.jpg" alt="" class="col-md-6 col-12 float-md-start me-md-5 mb-md-5 border border-3 border-black">
@@ -76,6 +78,7 @@
                 Proin feugiat sodales consequat. Ut pulvinar sapien in lobortis rhoncus. Pellentesque non pretium nisl. Aliquam vitae quam vel leo mattis efficitur ac sit amet sem. Proin condimentum felis luctus, gravida urna ut, semper tortor. Cras aliquet ultricies purus, non euismod elit auctor a. Sed vel tristique nulla, a lobortis erat. Integer id interdum metus. Etiam maximus eros non mauris auctor mattis. Proin vel odio in erat lobortis facilisis. Vestibulum ultrices, mi ac imperdiet lobortis, mi velit dignissim dui, sed condimentum dui est eu justo. Sed accumsan enim at felis faucibus, ac fringilla nunc congue. Donec interdum lacus eu justo vehicula, vitae molestie justo fermentum. Nunc eu fermentum ligula, quis vulputate massa.</p>
             </div>
         </div>
+
         <div class="col-md-10 col-sm-12 p-5 mb-3 empower border border-black rounded" id="Empower">
             <div class="clearfix">
                 <img src="./images/empower_placeholder.jpg" alt="" class="col-md-6 col-12 float-md-end ms-md-5 mb-md-5 border border-3 border-black">
@@ -86,17 +89,80 @@
                     
                 Fusce facilisis odio ac leo euismod scelerisque. Donec a dapibus massa. Nunc libero felis, fringilla ut interdum lacinia, mollis vitae ligula. Aliquam erat volutpat. Sed vel tempor ante. Pellentesque nunc neque, malesuada nec suscipit non, finibus lobortis enim. Vestibulum id tortor ut purus volutpat vehicula id eu risus. Maecenas at vehicula mauris.</p>
             </div>
-            <div id="Testimonials">
-                <!-- TODO: Add Testimonial section-->
-                    <!--Will likely be cards in a carosel? -->
-            </div>
-            <div id="Contact">
-                <!-- TODO: Add contact section-->
-                    <!--Footer perhaps? Maybe accordian?-->
-                    <!--Get signature image from Rebeca-->
-            </div>
-            
         </div>
+        <div class="container-fluid mb-3" id="Testimonials">
+            <div id="test-carousel" class="carousel slide carousel-dark" data-bs-ride="true">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card" style="height: 300px;">
+                            <div class="row g-0">
+                                <div class="col-4">
+                                    <img src="./images/test1placeholder.jpg" alt="" class="img-fluid testpic rounded-start">
+                                </div>
+                                <div class="col-8">
+                                    <div class="card-body">
+                                        <blockquote class="blockquote">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus interdum tempus purus eu aliquam. Phasellus diam tellus, ultrices ut metus eu, bibendum euismod tellus. Integer placerat varius elit, vitae viverra sem pellentesque eget. Maecenas sodales mauris sed orci pharetra suscipit. Curabitur lacus tellus, iaculis ac malesuada eu, porttitor a neque.</p>
+                                            <footer class="blockquote-footer">John Doe</footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Add secondcard here-->
+                        <div class="card" style="height: 300px;">
+                            <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="./images/test2placeholder.jpg" alt="" class="img-fluid testpic rounded-start">
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <blockquote class="blockquote">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dapibus eros ex, eget blandit nibh efficitur ut. Nunc imperdiet in.</p>
+                                                <footer class="blockquote-footer">Jane Doe</footer>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                            </div> 
+                            </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Add thirdcard here-->
+                        <div class="card" style="height: 300px;">
+                            <div class="row g-0">
+                                    <div class="col-4">
+                                        <img src="./images/test3placeholder.jpg" alt="" class="img-fluid testpic rounded-start" height="100%">
+                                    </div>
+                                    <div class="col-8">
+                                        <div class="card-body">
+                                            <blockquote class="blockquote">
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis ac dolor sed ultrices. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis rutrum quam at odio placerat pulvinar. Nunc tincidunt vulputate mollis.</p>
+                                                <footer class="blockquote-footer">Jill Doe</footer>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                            </div> 
+                            </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#test-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#test-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div id="Contact">
+            <!-- TODO: Add contact section-->
+                <!--Footer perhaps? Maybe accordian?-->
+                <!--Get signature image from Rebeca-->
+        </div>
+            
     </div>
     
 
