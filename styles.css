@@ -26,14 +26,24 @@ nav{
 a:link, a:visited{
     text-decoration: none;
     color: black;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.headlink{
     font-family: "PlayfairDisplay";
-    font-weight: 700;
+    font-weight: 700 !important;
     font-size: 1.25em;
 }
-a:hover{
+
+.headlink:hover{
     text-decoration: underline;
     font-size: 1.5em;
 }
+
 .educate{
     background-color: #eee3df;
     box-shadow: 7px 7px 5px black;
@@ -66,6 +76,8 @@ a:hover{
     height: auto !important;
 }
 
+
 #test-carousel{
     box-shadow: 7px 7px 5px black;
 }
+

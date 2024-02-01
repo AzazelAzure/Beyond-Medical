@@ -20,12 +20,31 @@
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body text-center justify-content-evenly">
-                    <div class="row g-5">
-                        <a href="#Educate" class="col-md-2 col-sm-12">Educate</a>
-                        <a href="#Inspire" class="col-md-2 col-sm-12">Inspire</a>
-                        <a href="#Empower" class="col-md-2 col-sm-12">Empower</a>
-                        <a href="#Testimonials" class="col-md-2 col-sm-12 me-md-3 me-sm-0">Testimonials</a>
-                        <a href="#" class="col-md-3 col-sm-12">Contact Us</a>
+                    <div class="row g-5 align-items-center">
+                        <a href="#Educate" class="col-md-2 col-sm-12 headlink">Educate</a>
+                        <a href="#Inspire" class="col-md-2 col-sm-12 headlink">Inspire</a>
+                        <a href="#Empower" class="col-md-2 col-sm-12 headlink">Empower</a>
+                        <a href="#Testimonials" class="col-md-2 col-sm-12 me-md-3 me-sm-0 headlink">Testimonials</a>
+                        <div class="dropdown-center col-md-3 col-sm-12 justify-content-center align-items-center headlink">
+                            <button class="btn dropdown-toggle btn-lg" data-bs-toggle="dropdown" aria-expanded="false">
+                                Contact Us
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-sm-end">
+                                <li>
+                                    <a href="mailto:rknapp@beyondmed.org" class="dropdown-item">
+                                    <img src="./images/envelope-paper-fill.svg" alt="" height="20px" width="20px">
+                                        rknapp@beyondmed.org
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tel:(712)830-9054" class="dropdown-item">
+                                        <img src="./images/telephone-fill.svg" alt="" height="20px" width="20px">
+                                        (712)830-9054
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -90,6 +109,7 @@
                 Fusce facilisis odio ac leo euismod scelerisque. Donec a dapibus massa. Nunc libero felis, fringilla ut interdum lacinia, mollis vitae ligula. Aliquam erat volutpat. Sed vel tempor ante. Pellentesque nunc neque, malesuada nec suscipit non, finibus lobortis enim. Vestibulum id tortor ut purus volutpat vehicula id eu risus. Maecenas at vehicula mauris.</p>
             </div>
         </div>
+
         <div class="container-fluid mb-3" id="Testimonials">
             <div id="test-carousel" class="carousel slide carousel-dark" data-bs-ride="true">
                 <div class="carousel-inner">
@@ -157,15 +177,25 @@
                 </button>
             </div>
         </div>
-        <div id="Contact">
-            <!-- TODO: Add contact section-->
-                <!--Footer perhaps? Maybe accordian?-->
-                <!--Get signature image from Rebeca-->
-        </div>
-            
     </div>
-    
 
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-3 border-top border-3 border-black" style="background-color: #b09084;">
+        <p class="col-md-4 mb-0 ms-3">© 2024</p>
+        <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item me-3">
+                <a href="mailto:rknapp@beyondmed.org" class="dropdown-item">
+                    <img src="./images/envelope-paper-fill.svg" alt="" height="20px" width="20px">
+                    rknapp@beyondmed.org
+                </a>
+            </li>
+            <li class="nav-item me-3">
+                <a href="tel:(712)830-9054" class="dropdown-item">
+                    <img src="./images/telephone-fill.svg" alt="" height="20px" width="20px">
+                    (712)830-9054
+                </a>
+            </li>
+        </ul>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="index.js"></script>
